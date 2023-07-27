@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* Agrega un ghost element para arreglar el fixed-nav que me come parte de mi body */
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    width: auto; height: 100%;
+    border-radius: .5rem;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+
+}
+
+
